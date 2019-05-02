@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "commonform-render-server",
+  "version": "0.0.0",
+  "description": "render Common Forms via HTTP POST",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "commonform/commonform-render-server",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "commonform-docx": "^1.4.0",
+    "commonform-html": "^2.0.0",
+    "commonform-markdown": "^1.2.3",
+    "commonform-markup-parse": "^0.4.2",
+    "commonform-validate": "^1.0.1",
+    "ooxml-signature-pages": "^2.0.1",
+    "pino": "^5.12.3",
+    "pino-http": "^4.2.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  },
+  "scripts": {
+    "lint": "standard",
+    "format": "standard --fix",
+    "test": "tape test.js"
+  }
+}
